@@ -97,6 +97,7 @@ export default {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: minmax(50px, auto);
+    background-color: black;
   }
 
   .display {
@@ -112,6 +113,7 @@ export default {
   .btn {
     background-color: #f2f2f2;
     border: 1px solid #999;
+    border-radius: 30px;
   }
 
   .operator {
